@@ -51,14 +51,14 @@
 
 // Task 15
 
-bool Wknd(int num)
-{
-    if (num == 6 || num == 7) return true;
-    else return false;
-}
+// bool Wknd(int num)
+// {
+//     if (num == 6 || num == 7) return true;
+//     else return false;
+// }
 
-Console.Write("Hello, friend. Enter your day's number: ");
-int Number = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Hello, friend. Enter your day's number: ");
+// int Number = Convert.ToInt32(Console.ReadLine());
 
-if (Number > 7) Console.WriteLine("There is no such day");
-else Console.WriteLine("It's time to have a drink! - " + Wknd(Number) + " statement");
+// if (Number > 7) Console.WriteLine("There is no such day");
+// else Console.WriteLine("It's time to have a drink! - " + Wknd(Number) + " statement");
